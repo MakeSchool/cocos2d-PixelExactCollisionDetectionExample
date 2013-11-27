@@ -5,6 +5,9 @@
  * Released under MIT License in Germany (LICENSE-Kobold2D.txt).
  */
 
+//  Created by Benjamin Encz.
+//  Copyright (c) 2013 MakeGamesWithUs Inc. Free to use for all purposes.
+
 #import "cocos2d.h"
 
 @interface HelloWorldLayer : CCLayer

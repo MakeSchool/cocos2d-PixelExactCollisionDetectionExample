@@ -9,6 +9,9 @@
 #import "bitarray.h"
 #import "kkUserConfig.h"
 
+//  Created by Benjamin Encz, based on KKPixelMaskSprite.
+//  Copyright (c) 2013 MakeGamesWithUs Inc. Free to use for all purposes.
+
 /** KKPixelMaskSprite is a CCSprite that has a pixelMask for pixel-perfect collision detection.
  
  Notable behavior of this class:
@@ -93,7 +96,7 @@
  If the other node is of class KKPixelMaskSprite an accurate pixelMask vs. pixelMask comparison is performed. If the intersection of
  the two nodes contains a pixelMask collision bit set at the same coordinates, then the two nodes are colliding and YES is returned.
  
- If available returns exact collision points.
+ If available returns exact collision points for one or both colliding MGWUPixelMaskNodes.
  
  Note: both nodes may NOT be rotated or scaled. This test only works with non-rotated, non-scaled nodes! */
 -(BOOL) pixelMaskIntersectsNode:(CCNode *)other collisionPointBodyA:(CGPoint *)pointA collisionPointBodyB:(CGPoint *)pointB;
