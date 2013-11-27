@@ -7,13 +7,14 @@
 
 #import "HelloWorldLayer.h"
 #import "SimpleAudioEngine.h"
+#import "MGWUPixelMaskSprite.h"
 
 @interface HelloWorldLayer (PrivateMethods)
 @end
 
 @implementation HelloWorldLayer {
-    KKPixelMaskSprite *sprite;
-    KKPixelMaskSprite *sprite2;
+    MGWUPixelMaskSprite *sprite;
+    MGWUPixelMaskSprite *sprite2;
 }
 
 @synthesize helloWorldString, helloWorldFontName;
@@ -25,11 +26,11 @@
 	{
 		CCLOG(@"%@ init", NSStringFromClass([self class]));
 				
-		sprite = [KKPixelMaskSprite spriteWithFile:@"ship.png"];
+		sprite = [MGWUPixelMaskSprite spriteWithFile:@"ship.png"];
 		sprite.position = ccp(20, 50);
 		[self addChild:sprite];
         
-        sprite2 = [KKPixelMaskSprite spriteWithFile:@"ship.png"];
+        sprite2 = [MGWUPixelMaskSprite spriteWithFile:@"ship.png"];
 		sprite2.position = ccp(300, 40);
 		[self addChild:sprite2];
 		

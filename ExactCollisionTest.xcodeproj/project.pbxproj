@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		62EFCAFC18465CD0005474C7 /* cross-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 62EFCAFA18465CD0005474C7 /* cross-hd.png */; };
 		62EFCAFD18465CD0005474C7 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 62EFCAFB18465CD0005474C7 /* cross.png */; };
+		62EFCB0018466244005474C7 /* MGWUPixelMaskSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EFCAFF18466244005474C7 /* MGWUPixelMaskSprite.m */; };
 		DC1BE6A014F417CC00F49D25 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1BE68C14F417CC00F49D25 /* Ubuntu-B.ttf */; };
 		DC1BE6A114F417CC00F49D25 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1BE68D14F417CC00F49D25 /* Ubuntu-BI.ttf */; };
 		DC1BE6A214F417CC00F49D25 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1BE68E14F417CC00F49D25 /* Ubuntu-C.ttf */; };
@@ -75,6 +76,8 @@
 /* Begin PBXFileReference section */
 		62EFCAFA18465CD0005474C7 /* cross-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross-hd.png"; sourceTree = "<group>"; };
 		62EFCAFB18465CD0005474C7 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		62EFCAFE18466244005474C7 /* MGWUPixelMaskSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWUPixelMaskSprite.h; sourceTree = "<group>"; };
+		62EFCAFF18466244005474C7 /* MGWUPixelMaskSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGWUPixelMaskSprite.m; sourceTree = "<group>"; };
 		DC1BE68614F417CC00F49D25 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
 		DC1BE68914F417CC00F49D25 /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
 		DC1BE68C14F417CC00F49D25 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
@@ -297,6 +300,8 @@
 				DCC1A38E13A94F1A005BD75D /* AppDelegate.m */,
 				DCC1A39413A94F1A005BD75D /* Resources */,
 				DCC1A3CF13A94F2C005BD75D /* Supporting Files */,
+				62EFCAFE18466244005474C7 /* MGWUPixelMaskSprite.h */,
+				62EFCAFF18466244005474C7 /* MGWUPixelMaskSprite.m */,
 			);
 			path = Projectfiles;
 			sourceTree = "<group>";
@@ -464,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC1A3A913A94F1A005BD75D /* AppDelegate.m in Sources */,
+				62EFCB0018466244005474C7 /* MGWUPixelMaskSprite.m in Sources */,
 				DCC1A3AB13A94F1A005BD75D /* HelloWorldLayer.m in Sources */,
 				DCC1A3AD13A94F1A005BD75D /* main.m in Sources */,
 			);
